@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "26777204-9ECC-4F91-BAA2-AE38D01E4EFB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEE89E69-1DB3-49DC-99AB-F9DE3D0AE8C2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI-MVVM-C/Modules/RepoList/Calendar/DayCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "configureConstraints()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6D3D960-0F29-4F54-8973-2418E4A1D19D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI-MVVM-C/Fastis /Views/Controller.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "513"
+            endingLineNumber = "513"
+            landmarkName = "calendar(_:didSelectDate:cell:cellState:indexPath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E998DA8-A66E-45ED-B7F4-87E2FE8F8AE7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI-MVVM-C/Fastis /Views/Controller.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "511"
+            endingLineNumber = "511"
+            landmarkName = "calendar(_:didSelectDate:cell:cellState:indexPath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "068CB806-4018-4A01-BAA0-906A4A33C2CF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI-MVVM-C/Fastis /Views/Controller.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "shortcutContainerView"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "068CB806-4018-4A01-BAA0-906A4A33C2CF - 55e5be30e9b06600"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SwiftUI_MVVM_C.FastisShortcut&lt;&#x3c4;_0_0&gt;) -&gt; () in closure #1 () -&gt; SwiftUI_MVVM_C.ShortcutContainerView&lt;&#x3c4;_0_0&gt; in SwiftUI_MVVM_C.FastisController.shortcutContainerView.getter : SwiftUI_MVVM_C.ShortcutContainerView&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "SwiftUI-MVVM-C"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/Downloads/SwiftUI-MVVM-C-main/SwiftUI-MVVM-C/SwiftUI-MVVM-C/Fastis%20/Views/Controller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "460">
+               </Location>
+               <Location
+                  uuid = "068CB806-4018-4A01-BAA0-906A4A33C2CF - 55e5be30e9b06600"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SwiftUI_MVVM_C.FastisShortcut&lt;&#x3c4;_0_0&gt;) -&gt; () in closure #1 () -&gt; SwiftUI_MVVM_C.ShortcutContainerView&lt;&#x3c4;_0_0&gt; in SwiftUI_MVVM_C.FastisController.shortcutContainerView.getter : SwiftUI_MVVM_C.ShortcutContainerView&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "SwiftUI-MVVM-C"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/Downloads/SwiftUI-MVVM-C-main/SwiftUI-MVVM-C/SwiftUI-MVVM-C/Fastis%20/Views/Controller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "544">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1679782-C48F-41A0-9187-17DD154EF169"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI-MVVM-C/CommonShared/Views/Controller.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "340"
+            endingLineNumber = "340"
+            landmarkName = "configureInitialState()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A1679782-C48F-41A0-9187-17DD154EF169 - 644dfca8670ed6c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUI_MVVM_C.FastisController.configureInitialState() -&gt; ()"
+                  moduleName = "SwiftUI-MVVM-C"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/Downloads/SwiftUI-MVVM-C-main/SwiftUI-MVVM-C/SwiftUI-MVVM-C/CommonShared/Views/Controller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "340"
+                  endingLineNumber = "340"
+                  offsetFromSymbolStart = "1948">
+               </Location>
+               <Location
+                  uuid = "A1679782-C48F-41A0-9187-17DD154EF169 - 644dfca8670ed6c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUI_MVVM_C.FastisController.configureInitialState() -&gt; ()"
+                  moduleName = "SwiftUI-MVVM-C"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/Downloads/SwiftUI-MVVM-C-main/SwiftUI-MVVM-C/SwiftUI-MVVM-C/CommonShared/Views/Controller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "340"
+                  endingLineNumber = "340"
+                  offsetFromSymbolStart = "2052">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C042565-35B0-4C07-B42C-E102330BB9C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/SwiftUI-MVVM-C-hgetzfhxnsztkrghatwyehebwydc/SourcePackages/checkouts/JTAppleCalendar/Sources/JTAppleCalendar/JTACInteractionMonthFunctions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "586"
+            endingLineNumber = "586"
+            landmarkName = "scrollToHeaderForDate(_:triggerScrollToDateDelegate:withAnimation:extraAddedOffset:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
