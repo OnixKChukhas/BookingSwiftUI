@@ -26,7 +26,6 @@
 		43A601DA2652687F00B24B9D /* repos.json in Resources */ = {isa = PBXBuildFile; fileRef = 43A601D92652687F00B24B9D /* repos.json */; };
 		43A601E0265268BD00B24B9D /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A601DF265268BD00B24B9D /* TestUtils.swift */; };
 		43A601E526526AAC00B24B9D /* MockNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A601E426526AAC00B24B9D /* MockNetworkClient.swift */; };
-		43A601ED265272E800B24B9D /* RepoListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A601EC265272E800B24B9D /* RepoListCoordinator.swift */; };
 		43A601F3265272F600B24B9D /* HotelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A601F2265272F600B24B9D /* HotelListView.swift */; };
 		43A601F8265273B700B24B9D /* HotelListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A601F7265273B700B24B9D /* HotelListViewModel.swift */; };
 		43A601FF2652780100B24B9D /* View+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A601FE2652780100B24B9D /* View+Utils.swift */; };
@@ -40,6 +39,10 @@
 		B809963A2A2D271D009B00C6 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80996392A2D271D009B00C6 /* AlertView.swift */; };
 		B809963D2A2D30C1009B00C6 /* SFProText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B809963B2A2D30C1009B00C6 /* SFProText-Semibold.ttf */; };
 		B809963E2A2D30C1009B00C6 /* SF-Pro-Text-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B809963C2A2D30C1009B00C6 /* SF-Pro-Text-Regular.ttf */; };
+		B80996412A2DEE35009B00C6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80996402A2DEE35009B00C6 /* ProfileView.swift */; };
+		B80996432A2DF141009B00C6 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80996422A2DF141009B00C6 /* NotificationView.swift */; };
+		B80996452A2DF16A009B00C6 /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80996442A2DF16A009B00C6 /* ConfirmationView.swift */; };
+		B809964A2A2DF6AC009B00C6 /* HotelListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80996492A2DF6AC009B00C6 /* HotelListCoordinator.swift */; };
 		B81C53462A2A9A6B006A0789 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C53452A2A9A6B006A0789 /* BookView.swift */; };
 		B81C53482A2B1E69006A0789 /* SheetPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C53472A2B1E69006A0789 /* SheetPresentation.swift */; };
 		B81C534E2A2B20C5006A0789 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C534D2A2B20C5006A0789 /* CalendarView.swift */; };
@@ -95,7 +98,6 @@
 		43A601D92652687F00B24B9D /* repos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = repos.json; sourceTree = "<group>"; };
 		43A601DF265268BD00B24B9D /* TestUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUtils.swift; sourceTree = "<group>"; };
 		43A601E426526AAC00B24B9D /* MockNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkClient.swift; sourceTree = "<group>"; };
-		43A601EC265272E800B24B9D /* RepoListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListCoordinator.swift; sourceTree = "<group>"; };
 		43A601F2265272F600B24B9D /* HotelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelListView.swift; sourceTree = "<group>"; };
 		43A601F7265273B700B24B9D /* HotelListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelListViewModel.swift; sourceTree = "<group>"; };
 		43A601FE2652780100B24B9D /* View+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Utils.swift"; sourceTree = "<group>"; };
@@ -109,6 +111,10 @@
 		B80996392A2D271D009B00C6 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		B809963B2A2D30C1009B00C6 /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Semibold.ttf"; sourceTree = "<group>"; };
 		B809963C2A2D30C1009B00C6 /* SF-Pro-Text-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.ttf"; sourceTree = "<group>"; };
+		B80996402A2DEE35009B00C6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B80996422A2DF141009B00C6 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		B80996442A2DF16A009B00C6 /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		B80996492A2DF6AC009B00C6 /* HotelListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelListCoordinator.swift; sourceTree = "<group>"; };
 		B81C53452A2A9A6B006A0789 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		B81C53472A2B1E69006A0789 /* SheetPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetPresentation.swift; sourceTree = "<group>"; };
 		B81C534D2A2B20C5006A0789 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
@@ -207,6 +213,7 @@
 				43A601A026522D1500B24B9D /* Shared */,
 				43A601B7265255BC00B24B9D /* CommonShared */,
 				43736D7E2652280700CE4368 /* AppDelegate.swift */,
+				B809963F2A2DEE08009B00C6 /* TabBar */,
 				43736D802652280700CE4368 /* SceneDelegate.swift */,
 				43736D822652280700CE4368 /* ContentView.swift */,
 				43736D842652280900CE4368 /* Assets.xcassets */,
@@ -311,29 +318,29 @@
 		43A601EA265272B500B24B9D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				43A601EB265272BC00B24B9D /* RepoList */,
+				43A601EB265272BC00B24B9D /* Home */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		43A601EB265272BC00B24B9D /* RepoList */ = {
+		43A601EB265272BC00B24B9D /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				B81C534C2A2B20B6006A0789 /* Calendar */,
 				B81C53442A2A9A56006A0789 /* Booking */,
 				43552D7D265366F400E97D8D /* HotelDetails */,
 				43A601F6265273A600B24B9D /* HotelList */,
-				43A601EC265272E800B24B9D /* RepoListCoordinator.swift */,
 			);
-			path = RepoList;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		43A601F6265273A600B24B9D /* HotelList */ = {
 			isa = PBXGroup;
 			children = (
 				B80996042A2CE4F5009B00C6 /* Components */,
-				43A601F2265272F600B24B9D /* HotelListView.swift */,
 				43A601F7265273B700B24B9D /* HotelListViewModel.swift */,
+				43A601F2265272F600B24B9D /* HotelListView.swift */,
+				B80996492A2DF6AC009B00C6 /* HotelListCoordinator.swift */,
 			);
 			path = HotelList;
 			sourceTree = "<group>";
@@ -387,6 +394,16 @@
 				B809963B2A2D30C1009B00C6 /* SFProText-Semibold.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		B809963F2A2DEE08009B00C6 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B80996402A2DEE35009B00C6 /* ProfileView.swift */,
+				B80996422A2DF141009B00C6 /* NotificationView.swift */,
+				B80996442A2DF16A009B00C6 /* ConfirmationView.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		B81C53442A2A9A56006A0789 /* Booking */ = {
@@ -541,7 +558,6 @@
 				43A601FF2652780100B24B9D /* View+Utils.swift in Sources */,
 				B80995FB2A2CE29C009B00C6 /* MapView.swift in Sources */,
 				B809962F2A2CEA90009B00C6 /* Styles.swift in Sources */,
-				43A601ED265272E800B24B9D /* RepoListCoordinator.swift in Sources */,
 				43A601A726522E0F00B24B9D /* NetworkClient.swift in Sources */,
 				43552DAA2653B8CF00E97D8D /* Publisher+Utils.swift in Sources */,
 				43A601A426522DBA00B24B9D /* NetworkProvider.swift in Sources */,
@@ -554,6 +570,7 @@
 				B81C534E2A2B20C5006A0789 /* CalendarView.swift in Sources */,
 				B81C536F2A2BA679006A0789 /* String+CapitalizeFirstLetter.swift in Sources */,
 				43A601F3265272F600B24B9D /* HotelListView.swift in Sources */,
+				B809964A2A2DF6AC009B00C6 /* HotelListCoordinator.swift in Sources */,
 				B81C536B2A2BA679006A0789 /* Config.swift in Sources */,
 				43A601F8265273B700B24B9D /* HotelListViewModel.swift in Sources */,
 				B80996032A2CE4D0009B00C6 /* HotelPageView.swift in Sources */,
@@ -561,6 +578,7 @@
 				B81C536A2A2BA679006A0789 /* Shortcut.swift in Sources */,
 				43736D832652280700CE4368 /* ContentView.swift in Sources */,
 				B80996082A2CE6DD009B00C6 /* DateFormatterHelper.swift in Sources */,
+				B80996452A2DF16A009B00C6 /* ConfirmationView.swift in Sources */,
 				B81C536D2A2BA679006A0789 /* Date+Utilities.swift in Sources */,
 				B81C53702A2BA679006A0789 /* ShortcutContainerView.swift in Sources */,
 				B81C536C2A2BA679006A0789 /* Value.swift in Sources */,
@@ -568,6 +586,8 @@
 				B81C53742A2BA679006A0789 /* DayCell.swift in Sources */,
 				43552D7F2653670800E97D8D /* HotelDetailsView.swift in Sources */,
 				43552D8E2653877700E97D8D /* Container.swift in Sources */,
+				B80996412A2DEE35009B00C6 /* ProfileView.swift in Sources */,
+				B80996432A2DF141009B00C6 /* NotificationView.swift in Sources */,
 				B81C53712A2BA679006A0789 /* MonthHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
