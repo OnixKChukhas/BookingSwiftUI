@@ -1,6 +1,4 @@
 
-
-
 import SwiftUI
 
 struct HotelListView: View {
@@ -47,7 +45,7 @@ struct CollectionView: View {
     let imageName: [String]
     var body: some View {
         LazyHStack(alignment: .center) {
-            PageView(imageName: imageName)
+            HotelPageView(imageName: imageName)
         }
     }
 }

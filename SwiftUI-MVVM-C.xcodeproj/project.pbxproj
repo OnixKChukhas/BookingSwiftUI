@@ -39,9 +39,6 @@
 		B809963A2A2D271D009B00C6 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80996392A2D271D009B00C6 /* AlertView.swift */; };
 		B809963D2A2D30C1009B00C6 /* SFProText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B809963B2A2D30C1009B00C6 /* SFProText-Semibold.ttf */; };
 		B809963E2A2D30C1009B00C6 /* SF-Pro-Text-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B809963C2A2D30C1009B00C6 /* SF-Pro-Text-Regular.ttf */; };
-		B80996412A2DEE35009B00C6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80996402A2DEE35009B00C6 /* ProfileView.swift */; };
-		B80996432A2DF141009B00C6 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80996422A2DF141009B00C6 /* NotificationView.swift */; };
-		B80996452A2DF16A009B00C6 /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80996442A2DF16A009B00C6 /* ConfirmationView.swift */; };
 		B809964A2A2DF6AC009B00C6 /* HotelListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80996492A2DF6AC009B00C6 /* HotelListCoordinator.swift */; };
 		B81C53462A2A9A6B006A0789 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C53452A2A9A6B006A0789 /* BookView.swift */; };
 		B81C53482A2B1E69006A0789 /* SheetPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C53472A2B1E69006A0789 /* SheetPresentation.swift */; };
@@ -62,6 +59,9 @@
 		B81C53792A2BA6B9006A0789 /* JTAppleCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = B81C53782A2BA6B9006A0789 /* JTAppleCalendar */; };
 		B81C537C2A2BA6C8006A0789 /* PrettyCards in Frameworks */ = {isa = PBXBuildFile; productRef = B81C537B2A2BA6C8006A0789 /* PrettyCards */; };
 		B81C537E2A2C7718006A0789 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C537D2A2C7718006A0789 /* BookViewModel.swift */; };
+		B85816612A2E70F500E2917C /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85816602A2E70F500E2917C /* TabItemView.swift */; };
+		B85816632A2E711700E2917C /* PageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85816622A2E711700E2917C /* PageType.swift */; };
+		B85816652A2E7B9400E2917C /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85816642A2E7B9400E2917C /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,9 +111,6 @@
 		B80996392A2D271D009B00C6 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		B809963B2A2D30C1009B00C6 /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Semibold.ttf"; sourceTree = "<group>"; };
 		B809963C2A2D30C1009B00C6 /* SF-Pro-Text-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.ttf"; sourceTree = "<group>"; };
-		B80996402A2DEE35009B00C6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		B80996422A2DF141009B00C6 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
-		B80996442A2DF16A009B00C6 /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
 		B80996492A2DF6AC009B00C6 /* HotelListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelListCoordinator.swift; sourceTree = "<group>"; };
 		B81C53452A2A9A6B006A0789 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		B81C53472A2B1E69006A0789 /* SheetPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetPresentation.swift; sourceTree = "<group>"; };
@@ -132,6 +129,9 @@
 		B81C53682A2BA679006A0789 /* WeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		B81C53692A2BA679006A0789 /* ShortcutItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortcutItemView.swift; sourceTree = "<group>"; };
 		B81C537D2A2C7718006A0789 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		B85816602A2E70F500E2917C /* TabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
+		B85816622A2E711700E2917C /* PageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageType.swift; sourceTree = "<group>"; };
+		B85816642A2E7B9400E2917C /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -399,9 +399,9 @@
 		B809963F2A2DEE08009B00C6 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
-				B80996402A2DEE35009B00C6 /* ProfileView.swift */,
-				B80996422A2DF141009B00C6 /* NotificationView.swift */,
-				B80996442A2DF16A009B00C6 /* ConfirmationView.swift */,
+				B85816602A2E70F500E2917C /* TabItemView.swift */,
+				B85816642A2E7B9400E2917C /* TabBarView.swift */,
+				B85816622A2E711700E2917C /* PageType.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -563,12 +563,14 @@
 				43A601A426522DBA00B24B9D /* NetworkProvider.swift in Sources */,
 				43552D7526535EC100E97D8D /* Binding+Utils.swift in Sources */,
 				43736D812652280700CE4368 /* SceneDelegate.swift in Sources */,
+				B85816612A2E70F500E2917C /* TabItemView.swift in Sources */,
 				B81C53722A2BA679006A0789 /* CurrentValueView.swift in Sources */,
 				B81C53482A2B1E69006A0789 /* SheetPresentation.swift in Sources */,
 				B81C53732A2BA679006A0789 /* Controller.swift in Sources */,
 				B81C53752A2BA679006A0789 /* WeekView.swift in Sources */,
 				B81C534E2A2B20C5006A0789 /* CalendarView.swift in Sources */,
 				B81C536F2A2BA679006A0789 /* String+CapitalizeFirstLetter.swift in Sources */,
+				B85816632A2E711700E2917C /* PageType.swift in Sources */,
 				43A601F3265272F600B24B9D /* HotelListView.swift in Sources */,
 				B809964A2A2DF6AC009B00C6 /* HotelListCoordinator.swift in Sources */,
 				B81C536B2A2BA679006A0789 /* Config.swift in Sources */,
@@ -578,7 +580,6 @@
 				B81C536A2A2BA679006A0789 /* Shortcut.swift in Sources */,
 				43736D832652280700CE4368 /* ContentView.swift in Sources */,
 				B80996082A2CE6DD009B00C6 /* DateFormatterHelper.swift in Sources */,
-				B80996452A2DF16A009B00C6 /* ConfirmationView.swift in Sources */,
 				B81C536D2A2BA679006A0789 /* Date+Utilities.swift in Sources */,
 				B81C53702A2BA679006A0789 /* ShortcutContainerView.swift in Sources */,
 				B81C536C2A2BA679006A0789 /* Value.swift in Sources */,
@@ -586,8 +587,7 @@
 				B81C53742A2BA679006A0789 /* DayCell.swift in Sources */,
 				43552D7F2653670800E97D8D /* HotelDetailsView.swift in Sources */,
 				43552D8E2653877700E97D8D /* Container.swift in Sources */,
-				B80996412A2DEE35009B00C6 /* ProfileView.swift in Sources */,
-				B80996432A2DF141009B00C6 /* NotificationView.swift in Sources */,
+				B85816652A2E7B9400E2917C /* TabBarView.swift in Sources */,
 				B81C53712A2BA679006A0789 /* MonthHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

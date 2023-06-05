@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct PageView: View {
+struct HotelPageView: View {
     let imageName: [String]
     var body: some View {
         TabView {

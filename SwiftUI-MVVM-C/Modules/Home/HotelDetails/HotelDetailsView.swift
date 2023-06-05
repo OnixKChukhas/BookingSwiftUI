@@ -12,13 +12,12 @@ struct HotelDetailsView: View {
     var selectedItem: MockData
     
     var body: some View {
-        NavigationView {
             VStack {
                 HStack(spacing: 5) {
                     Button(action: {
                         self.presentationMode.wrappedValue.dismiss()
                         
-                    }) {
+                    }){
                         Image("back")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
@@ -42,7 +41,7 @@ struct HotelDetailsView: View {
                     .padding(.top, 0)
                 }
             }
-        }
+           
         .frame(height: 38)
         .padding(.horizontal, 10)
         
