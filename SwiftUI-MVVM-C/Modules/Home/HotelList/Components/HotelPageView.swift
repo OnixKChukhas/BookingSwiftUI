@@ -15,7 +15,7 @@ struct HotelPageView: View {
             }
             .padding(.all, 20)
         }
-        .frame(width: UIScreen.main.bounds.width - 20, height: 150)
+        .frame(width: UIScreen.main.bounds.width - 20, height: 261)
         .tabViewStyle(PageTabViewStyle())
     }
 }
