@@ -1,13 +1,8 @@
 //
 //  Container.swift
-//  SwiftUI-MVVM-C
-//
-//  
-//
+
 
 import Foundation
-
-/// Wrap a struct to avoid compile error when have a struct as a property in a same type struct. For example, a property forkFromRepo with type Repo in a Repo struct.
 struct Container<T: Codable>: Codable {
     private var values: [T] = []
     

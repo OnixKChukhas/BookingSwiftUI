@@ -1,9 +1,4 @@
-//
-//  File.swift
-//  
-//
-//  Created by Ilya Kharlamov on 9/12/22.
-//
+
 
 import Foundation
 

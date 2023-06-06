@@ -157,13 +157,6 @@
 		43552D782653601F00E97D8D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B81C53632A2BA679006A0789 /* ShortcutContainerView.swift */,
-				B81C53642A2BA679006A0789 /* MonthHeader.swift */,
-				B81C53652A2BA679006A0789 /* CurrentValueView.swift */,
-				B81C53662A2BA679006A0789 /* Controller.swift */,
-				B81C53672A2BA679006A0789 /* DayCell.swift */,
-				B81C53682A2BA679006A0789 /* WeekView.swift */,
-				B81C53692A2BA679006A0789 /* ShortcutItemView.swift */,
 				43552D792653603200E97D8D /* EmptyNavigationLink.swift */,
 				B81C53472A2B1E69006A0789 /* SheetPresentation.swift */,
 			);
@@ -210,7 +203,6 @@
 			isa = PBXGroup;
 			children = (
 				43A601EA265272B500B24B9D /* Modules */,
-				43A601A026522D1500B24B9D /* Shared */,
 				43A601B7265255BC00B24B9D /* CommonShared */,
 				43736D7E2652280700CE4368 /* AppDelegate.swift */,
 				B809963F2A2DEE08009B00C6 /* TabBar */,
@@ -230,15 +222,6 @@
 				43736D872652280900CE4368 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		43A601A026522D1500B24B9D /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				43A601C1265257E200B24B9D /* Models */,
-				43A601B8265255F300B24B9D /* Networking */,
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		43A601A126522D2A00B24B9D /* Networking */ = {
@@ -262,8 +245,8 @@
 		43A601B7265255BC00B24B9D /* CommonShared */ = {
 			isa = PBXGroup;
 			children = (
+				B85816682A2F5F8A00E2917C /* Cusstom Calendar Components */,
 				B80996062A2CE6D0009B00C6 /* Helpers */,
-				B81C535A2A2BA679006A0789 /* Models */,
 				43552D8C2653876C00E97D8D /* Utils */,
 				43552D782653601F00E97D8D /* Views */,
 				43A601FD265277F400B24B9D /* Extensions */,
@@ -271,20 +254,6 @@
 				B80996092A2CE99E009B00C6 /* Font */,
 			);
 			path = CommonShared;
-			sourceTree = "<group>";
-		};
-		43A601B8265255F300B24B9D /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
-		43A601C1265257E200B24B9D /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		43A601CB265267C000B24B9D /* SwiftUI-MVVM-CTests */ = {
@@ -348,9 +317,6 @@
 		43A601FD265277F400B24B9D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				B81C535F2A2BA679006A0789 /* Date+Utilities.swift */,
-				B81C53602A2BA679006A0789 /* Calendar+LastWeekday.swift */,
-				B81C53612A2BA679006A0789 /* String+CapitalizeFirstLetter.swift */,
 				43A601FE2652780100B24B9D /* View+Utils.swift */,
 				43552D7426535EC100E97D8D /* Binding+Utils.swift */,
 				43552DA92653B8CF00E97D8D /* Publisher+Utils.swift */,
@@ -431,6 +397,40 @@
 				B81C535D2A2BA679006A0789 /* Value.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B85816682A2F5F8A00E2917C /* Cusstom Calendar Components */ = {
+			isa = PBXGroup;
+			children = (
+				B858166A2A2F5FDD00E2917C /* Extension */,
+				B85816692A2F5FC800E2917C /* Views */,
+				B81C535A2A2BA679006A0789 /* Models */,
+			);
+			path = "Cusstom Calendar Components";
+			sourceTree = "<group>";
+		};
+		B85816692A2F5FC800E2917C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B81C53632A2BA679006A0789 /* ShortcutContainerView.swift */,
+				B81C53642A2BA679006A0789 /* MonthHeader.swift */,
+				B81C53652A2BA679006A0789 /* CurrentValueView.swift */,
+				B81C53662A2BA679006A0789 /* Controller.swift */,
+				B81C53672A2BA679006A0789 /* DayCell.swift */,
+				B81C53682A2BA679006A0789 /* WeekView.swift */,
+				B81C53692A2BA679006A0789 /* ShortcutItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B858166A2A2F5FDD00E2917C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B81C535F2A2BA679006A0789 /* Date+Utilities.swift */,
+				B81C53602A2BA679006A0789 /* Calendar+LastWeekday.swift */,
+				B81C53612A2BA679006A0789 /* String+CapitalizeFirstLetter.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

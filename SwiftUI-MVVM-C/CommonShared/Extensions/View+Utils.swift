@@ -1,8 +1,6 @@
 //
 //  View+Utils.swift
-//  iWidget
 //
-//  Created by Huy Nguyen on 9/25/20.
 //
 
 import SwiftUI

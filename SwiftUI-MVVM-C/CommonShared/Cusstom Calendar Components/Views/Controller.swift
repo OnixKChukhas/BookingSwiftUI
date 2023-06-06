@@ -1,52 +1,9 @@
-//
-//  FastisController.swift
-//  Fastis
-//
-//  Created by Ilya Kharlamov on 10.04.2020.
-//  Copyright © 2020 DIGITAL RETAIL TECHNOLOGIES, S.L. All rights reserved.
-//
+
 
 import UIKit
 import JTAppleCalendar
 
-/**
- Main controller of Fastis framework. Use it to create and present dade picker
- 
- Usage example:
- ```swift
- let fastisController = FastisController(mode: .range)
- fastisController.title = "Choose range"
- fastisController.maximumDate = Date()
- fastisController.allowToChooseNilDate = true
- fastisController.shortcuts = [.today, .lastWeek]
- fastisController.doneHandler = { resultRange in
-     ...
- }
- fastisController.present(above: self)
- ```
- 
- **Single and range modes**
 
- If you want to get a single date you have to use `Date` type:
-
- ```swift
- let fastisController = FastisController(mode: .single)
- fastisController.initialValue = Date()
- fastisController.doneHandler = { resultDate in
-     print(resultDate) // resultDate is Date
- }
- ```
-
- If you want to get a date range you have to use `FastisRange` type:
-
- ```swift
- let fastisController = FastisController(mode: .range)
- fastisController.initialValue = FastisRange(from: Date(), to: Date()) // or .from(Date(), to: Date())
- fastisController.doneHandler = { resultRange in
-     print(resultRange) // resultDate is FastisRange
- }
- ```
- */
 open class FastisController<Value: FastisValue>: UIViewController, JTACMonthViewDelegate, JTACMonthViewDataSource {
 
     // MARK: - Outlets

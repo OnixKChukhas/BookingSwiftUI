@@ -1,33 +1,11 @@
 //
 //  Config.swift
-//  Fastis
-//
-//  Created by Ilya Kharlamov on 14.04.2020.
-//  Copyright © 2020 DIGITAL RETAIL TECHNOLOGIES, S.L. All rights reserved.
-//
 
 import Foundation
 
 /// Main configuration file
 public struct FastisConfig {
 
-    /**
-     The default configuration.
-     
-     Fastis can be customized global or local.
-     
-     Modify this variable to customize all Fastis controllers in your app:
-     ```swift
-     FastisConfig.default.monthHeader.labelColor = .red
-     ```
-     
-     Or you can copy and modify this config for some special controller:
-     ```swift
-     let config: FastisConfig = .default
-     config.monthHeader.labelColor = .red
-     let controller = FastisController(mode: .single, config: config)
-     ```
-     */
     public static var `default` = FastisConfig()
 
     private init() {}

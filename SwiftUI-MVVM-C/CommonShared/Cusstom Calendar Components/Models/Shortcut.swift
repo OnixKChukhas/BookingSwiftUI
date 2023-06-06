@@ -1,32 +1,6 @@
-//
-//  Shortcut.swift
-//  Fastis
-//
-//  Created by Ilya Kharlamov on 14.04.2020.
-//  Copyright © 2020 DIGITAL RETAIL TECHNOLOGIES, S.L. All rights reserved.
-//
 
 import Foundation
 
-/**
- Using shortcuts allows you to quick select prepared dates or date ranges.
- By default `.shortcuts` is empty. If you don't provide any shortcuts the bottom container will be hidden.
-
- In Fastis available some prepared shortcuts for each mode:
-
- - For **`.single`**: `.today`, `.tomorrow`, `.yesterday`
- - For **`.range`**: `.today`, `.lastWeek`, `.lastMonth`
-
- Also you can create your own shortcut:
-
- ```swift
- var customShortcut = FastisShortcut(name: "Today") {
-     let now = Date()
-     return FastisRange(from: now.startOfDay(), to: now.endOfDay())
- }
- fastisController.shortcuts = [customShortcut, .lastWeek]
- ```
- */
 public struct FastisShortcut<Value: FastisValue>: Hashable {
 
     private var id: UUID = UUID()

@@ -2,7 +2,6 @@
 //  Binding+Utils.swift
 //  
 //
-//  Created by Huy Nguyen on 9/30/20.
 //
 
 import SwiftUI
